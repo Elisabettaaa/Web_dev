@@ -24,7 +24,14 @@
 		text-align: center;
 		
 	}
-
+#box {
+	background-color: blue;
+	padding:10px 20px 10px 20px;
+	border: 20px solid black;
+	margin:40px;
+	width: 500px;
+	box-sizing:border-box;
+}
 ul>li>a{
 	list-style: none;
 /* remove the predefined stiles for links */} 
@@ -32,8 +39,8 @@ ul>li>a{
 h2>ul>li>a:link, h2>ul>li>a:visited {
 text-decoration: none;
 background-color: orange;
-border:1px solid blue;
-padding: 10px 10px 10px 10px;
+margin: 40px; /* 40px on every side */
+border:5px solid blue;
 color: black;
 display: block;
 width: 400px;
@@ -53,7 +60,7 @@ section>ul>li>a:nth-child(1) {
 </head>
 <body>
 
-<h1> Hello how is it going with you ? ! </h1>
+<h1 id ='box'> Hello how is it going with you ? ! </h1>
 <div> What do you buy when you do grocery ?
 	<ul>
 		<li> Milk </li>
@@ -66,7 +73,7 @@ section>ul>li>a:nth-child(1) {
 		 </ul>
 		<li> Butter</li>
 	</ul>
-</div>
+</div> 
 <h2> Check out this link in order to find more information about this person:
   <ul>
 	<li><a target="_blank" href="https://twitter.com/p95pagliara" title=" Elisabetta's twitter" >
