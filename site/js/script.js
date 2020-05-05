@@ -1,5 +1,5 @@
 function sayHELLO () {
-	var comment= document.getElementById("button").value;
+	var comment= document.getElementById("buttons").value;
 	var comment2=" <h4>Thanks a lot for your feedback : " + comment +" We are happy that you appreciated it :) </h4>";
 
 	this.textContent="Conferm done !" //change the text after click the button
