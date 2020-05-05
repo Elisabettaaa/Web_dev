@@ -29,4 +29,4 @@ function sayHELLO () {
 }
 //event handler
 
-document.querySelector("button").addEventListener('click',sayHello);
+document.querySelector("button").addEventListener('click',sayHELLO);
