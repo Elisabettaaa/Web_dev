@@ -8,7 +8,7 @@ function sayHELLO () {
     //document.querySelector("#result").textContent=comment2;
     
 
-    if ( comment >5 || comment <=10  ){
+    if ( comment >5 && comment <=10  ){
 
     		document.getElementById("result").innerHTML=comment2;
     }
